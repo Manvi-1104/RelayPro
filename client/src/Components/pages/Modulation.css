@@ -1,0 +1,66 @@
+Transcription.css
+
+.transcribe-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transcribe-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .transcribe-button.stop {
+    background-color: #dc3545;
+  }
+  
+  .transcribe-button:hover {
+    opacity: 0.9;
+  }
+  
+  .transcribe-transcript {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .transcribe-complex-word-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .transcribe-complex-word {
+    background-color: #ffc107;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .transcribe-pronounce-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .transcribe-pronounce-button:hover {
+    opacity: 0.8;
+  }
+
+  /* Add additional styles as needed*/
